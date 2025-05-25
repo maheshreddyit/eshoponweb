@@ -2,34 +2,34 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: insureme
+  name: eshoponweb
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: insureme
+      app: eshoponweb
   template:
     metadata:
       labels:
-        app: insureme
+        app: eshoponweb
     spec:
       containers:
-        - name: bankingfinance
+        - name: eshoponweba
           image: maheshr8050/eshoponwebdemo:1
           ports:
-            - containerPort: 8082
+            - containerPort: 8085
           env:
             - name: PORT
-              value: "8082"
+              value: "8085"
 ---
 apiVersion: v1
 kind: Service
 metadata:
-  name: insureme
+  name: eshoponweb
 spec:
   type: NodePort
   ports:
-    - port: 8082
-      targetPort: 8082
+    - port: 8085
+      targetPort: 8085
   selector:
-    app: insureme
+    app: eshoponweb
