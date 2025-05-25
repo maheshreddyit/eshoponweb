@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: eshoponweba
-          image: maheshr8050/eshoponwebdemo:1
+          image: maheshr8050/eshoponwebdemo:2
           ports:
             - containerPort: 8082
           env:
