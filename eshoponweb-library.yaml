@@ -12,7 +12,7 @@ services:
       description: Azure configuration
       icon: https://raw.githubusercontent.com/maheshreddyit/eshoponweb/blob/main/img/azure.png
       source:
-        image: dockersamples/eshoponweb-no-op-svc:1911
+        image: maheshreddyit/eshoponweb-no-op-svc:1911
       title: Azure
       parameters:
         - name: region
@@ -33,7 +33,7 @@ services:
       description: AKS configuration
       icon: https://raw.githubusercontent.com/maheshreddyit/eshoponweb/blob/main/img/aks.png
       source:
-        image: dockersamples/eshoponweb-no-op-svc:1911
+        image: maheshreddyit/eshoponweb-no-op-svc:1911
       title: Azure Kubernetes Service
       parameters:
         - name: clusterName
@@ -59,7 +59,7 @@ services:
       description: GitHub Actions to deploy to AKS
       icon: https://raw.githubusercontent.com/maheshreddyit/eshoponweb/blob/main/img/github.png
       source:
-        image: dockersamples/eshoponweb-github-svc:1911
+        image: maheshreddyit/eshoponweb-github-svc:1911
       title: GitHub Actions
       parameters:
         - name: username
@@ -79,7 +79,7 @@ services:
       description: Sample .NET Core web app
       icon: https://raw.githubusercontent.com/maheshreddyit/eshoponweb/blob/main/img/dotnet.png
       source:
-        image: dockersamples/eshoponweb-eshop-web-svc:1911
+        image: maheshreddyit/eshoponweb-eshop-web-svc:1911
       title: eShop on Web
       parameters:
         - name: externalPort
@@ -97,7 +97,7 @@ services:
       description: SQL Server container
       icon: https://raw.githubusercontent.com/maheshreddyit/eshoponweb/blob/main/img/sql-server.jpg
       source:
-        image: dockersamples/eshoponweb-sql-server-svc:1911
+        image: maheshreddyit/eshoponweb-sql-server-svc:1911
       title: SQL Server
       parameters:
         - name: saPassword
