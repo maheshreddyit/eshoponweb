@@ -10,7 +10,7 @@ services:
         - linux
     spec:
       description: Azure configuration
-      icon: https://raw.githubusercontent.com/dockersamples/eshoponweb-template/master/img/azure.png
+      icon: https://raw.githubusercontent.com/maheshreddyit/eshoponweb/blob/main/img/azure.png
       source:
         image: dockersamples/eshoponweb-no-op-svc:1911
       title: Azure
@@ -31,7 +31,7 @@ services:
         - linux
     spec:
       description: AKS configuration
-      icon: https://raw.githubusercontent.com/dockersamples/eshoponweb-template/master/img/aks.png
+      icon: https://raw.githubusercontent.com/maheshreddyit/eshoponweb/blob/main/img/aks.png
       source:
         image: dockersamples/eshoponweb-no-op-svc:1911
       title: Azure Kubernetes Service
@@ -57,7 +57,7 @@ services:
         - linux
     spec:
       description: GitHub Actions to deploy to AKS
-      icon: https://raw.githubusercontent.com/dockersamples/eshoponweb-template/master/img/github.png
+      icon: https://raw.githubusercontent.com/maheshreddyit/eshoponweb/blob/main/img/github.png
       source:
         image: dockersamples/eshoponweb-github-svc:1911
       title: GitHub Actions
@@ -77,7 +77,7 @@ services:
         - linux
     spec:
       description: Sample .NET Core web app
-      icon: https://raw.githubusercontent.com/dockersamples/eshoponweb-template/master/img/dotnet.png
+      icon: https://raw.githubusercontent.com/maheshreddyit/eshoponweb/blob/main/img/dotnet.png
       source:
         image: dockersamples/eshoponweb-eshop-web-svc:1911
       title: eShop on Web
@@ -95,7 +95,7 @@ services:
         - linux
     spec:
       description: SQL Server container
-      icon: https://raw.githubusercontent.com/dockersamples/eshoponweb-template/master/img/sql-server.jpg
+      icon: https://raw.githubusercontent.com/maheshreddyit/eshoponweb/blob/main/img/sql-server.jpg
       source:
         image: dockersamples/eshoponweb-sql-server-svc:1911
       title: SQL Server
